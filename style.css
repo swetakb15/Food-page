@@ -1,0 +1,82 @@
+body{
+    background:url("img/background.jpeg") no-repeat center center fixed ;
+    background-size:cover;
+    font-family:sans-serif;
+}
+header{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    color:lightsteelblue;
+}
+.head{
+    float:left;
+    color:#fff;
+    font-family:cursive;
+}
+nav{
+    float:right;
+}
+li{
+    display:inline;
+    padding:1rem;
+}
+li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+.active{
+    color:gold;
+
+}
+li:hover{
+    background-color:lightseagreen;
+
+}
+.container{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+    margin-top:1%;
+}
+showcase h1{
+    color:#fff;
+    font-family:cursive;
+    text-align:center;
+}
+showcase h3{
+    color:#fff;
+    text-align:center;
+    letter-spacing:2px;
+}
+.category{
+    color:#fff;
+    margin-top:5%;
+    display:flex;
+    text-align:center;
+    font-family:cursive;
+}
+img{
+    width:70%;
+    border-radius:50%;
+
+}
+.snacks, .kabab{
+    padding-left:1rem;
+ }
+ h1{
+     color:royalblue;
+ }
+ h4{
+     font-size:1rem;/*1rem=16px*/
+     margin:3%;
+ }
+ .btn{
+     background-color:gold;
+     padding:1rem;
+     border:none;
+     border-radius:8px;
+     margin:auto;
+     position: relative;
+ }
